@@ -18,6 +18,14 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
 
       // Send the message
       channel.send(`https://tenor.com/view/stormwavz-omniversal-discord-gif-22696440`);
+      if (oldPresence.status === 'online' && newPresence.status === 'offline') {
+
+        // Get the channel to send the message in
+        const channel = client.channels.cache.get('349096556818857995');
+  
+        // Send the message
+        channel.send(`https://tenor.com/view/stormwavz-omniversal-discord-gif-22696441`);
+      }
     }
   }
 });
