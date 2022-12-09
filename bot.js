@@ -25,7 +25,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
+            channel.send(`https://imgur.com/a/Bp6FLPA`);
         }
         else if (oldPresence.status === 'offline' && newPresence.status === 'idle') {
             // Get the channel to send the message in
@@ -49,7 +49,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
+            channel.send(`https://imgur.com/a/Bp6FLPA`);
         }
         else if (oldPresence.status === 'idle' && newPresence.status === 'offline') {
             // Get the channel to send the message in
@@ -97,7 +97,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
+            channel.send(`https://imgur.com/a/Bp6FLPA`);
         }
         else if (oldPresence.status === 'online' && newPresence.status === 'offline') {
             // Get the channel to send the message in
