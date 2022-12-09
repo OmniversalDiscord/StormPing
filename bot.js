@@ -25,14 +25,14 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050604801077022800/caption.gif`);
+            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
         }
         else if (oldPresence.status === 'offline' && newPresence.status === 'idle') {
             // Get the channel to send the message in
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050602771323297900/caption.gif`);
+            channel.send(`https://tenor.com/view/stormidle-gif-27216955`);
         }
 
 //old status idle
@@ -49,7 +49,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050604801077022800/caption.gif`);
+            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
         }
         else if (oldPresence.status === 'idle' && newPresence.status === 'offline') {
             // Get the channel to send the message in
@@ -73,7 +73,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050602771323297900/caption.gif`);
+            channel.send(`https://tenor.com/view/stormidle-gif-27216955`);
         }
         else if (oldPresence.status === 'dnd' && newPresence.status === 'offline') {
             // Get the channel to send the message in
@@ -90,14 +90,14 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050602771323297900/caption.gif`);
+            channel.send(`https://tenor.com/view/stormidle-gif-27216955`);
         }
         else if (oldPresence.status === 'online' && newPresence.status === 'dnd') {
             // Get the channel to send the message in
             const channel = client.channels.cache.get('349096556818857995');
         
             // Send the message
-            channel.send(`https://media.discordapp.net/attachments/349096556818857995/1050604801077022800/caption.gif`);
+            channel.send(`https://media.discordapp.net/attachments/1050233928423833640/1050604801077022800/caption.gif`);
         }
         else if (oldPresence.status === 'online' && newPresence.status === 'offline') {
             // Get the channel to send the message in
