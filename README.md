@@ -1,2 +1,2 @@
-# StormPing
-Bot that pings Storm when he comes online because he is a shite
+# StormWatch
+A bot that sends a gif in Storm's echi chamber depending on his online status.
